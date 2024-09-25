@@ -1,0 +1,64 @@
+{
+  "job": {
+    "cut_width": 2,
+    "stocks": [
+      {
+        "length": 1500,
+        "name": "infinite"
+      }
+    ],
+    "required": [
+      {
+        "length": 500,
+        "name": "Part1",
+        "quantity": 2
+      },
+      {
+        "length": 200,
+        "quantity": 4
+      }
+    ]
+  },
+  "solver_type": "bruteforce",
+  "time_us": 1868,
+  "layout": [
+    {
+      "stock": {
+        "length": 1500,
+        "name": "infinite"
+      },
+      "cuts": [
+        {
+          "length": 500,
+          "name": "Part1"
+        },
+        {
+          "length": 200
+        },
+        {
+          "length": 200
+        },
+        {
+          "length": 200
+        }
+      ],
+      "trimming": 392
+    },
+    {
+      "stock": {
+        "length": 1500,
+        "name": "infinite"
+      },
+      "cuts": [
+        {
+          "length": 500,
+          "name": "Part1"
+        },
+        {
+          "length": 200
+        }
+      ],
+      "trimming": 796
+    }
+  ]
+}

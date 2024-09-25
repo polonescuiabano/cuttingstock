@@ -1,0 +1,20 @@
+{
+  "cut_width": 2,
+  "stocks": [
+    {
+      "name": "infinite",
+      "length": 1500
+    }
+  ],
+  "required": [
+    {
+      "length": 500,
+      "quantity": 2,
+      "name": "Part1"
+    },
+    {
+      "length": 200,
+      "quantity": 4
+    }
+  ]
+}
